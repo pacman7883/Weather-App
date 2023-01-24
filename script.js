@@ -67,7 +67,6 @@ function weatherDataHandler(data) {
     const { speed } = data.wind;
 
     temperatureDegree.textContent = temp + '\xB0' + ' C';
-    console.log(temp_max);
     temperatureDescription.textContent = description;
     locationTimezone.textContent = data.name;
     maxTemperature.textContent = 'Max: ' + temp_max + '\xB0' + ' C';
